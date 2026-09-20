@@ -1,0 +1,21 @@
+Ejercicio individual – Consultoría de caso
+
+1. ¿Qué tipo de contenedor recomendaría a la PyME? Justifique.
+
+Recomendaría un contenedor de libre distribución, porque la empresa tiene un presupuesto limitado y no menciona que necesite un contrato de soporte (SLA). Siguiendo el árbol de decisión, cuando el presupuesto es limitado la mejor opción es usar software libre.
+
+2. ¿Qué tipo recomendaría al banco? Justifique.
+
+Al banco le recomendaría un contenedor propietario, porque necesita soporte garantizado las 24 horas y debe cumplir normas muy estrictas. Según el árbol de decisión, cuando existe la necesidad de un SLA, se recomienda una solución propietaria.
+
+3. Mencione el producto específico elegido en cada caso, una razón económica y una razón técnica.
+
+PyME
+Producto: Node.js.
+Razón económica: No tiene costo de licencia, por lo que ayuda a ahorrar dinero.
+Razón técnica: Es fácil de usar y funciona bien para publicar aplicaciones web.
+
+Banco
+Producto: IIS.
+Razón económica: Aunque requiere licencia, incluye soporte cuando se necesita.
+Razón técnica: Ofrece mayor estabilidad y soporte para sistemas que deben estar disponibles todo el tiempo.

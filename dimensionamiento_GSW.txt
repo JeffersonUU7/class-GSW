@@ -1,0 +1,32 @@
+OBJETIVO DEL EJERCICIO
+Aplicar los criterios para calcular los recursos de un servidor web (CPU, RAM, Disco, Red) en tres casos reales, justificando cada elección con lo visto en clase.
+
+ESCENARIO 1: BLOG PERSONAL
+
+Núcleos de CPU: 1 vCPU
+
+Cantidad de RAM: 1 GB a 2 GB
+
+Recomendación: Servidor en la nube (VPS básico)
+
+Justificación: El flujo de visitas es mínimo (alrededor de 2 personas por hora) y las páginas estáticas no exigen procesamiento. Usar un VPS económico en la nube ahorra costos y evita tener una máquina encendida en casa consumiendo luz y mantenimiento 24/7.
+
+ESCENARIO 2: TIENDA EN LÍNEA (PyME)
+
+Núcleos de CPU: 2 a 4 núcleos
+
+Cantidad de RAM: 4 GB a 8 GB
+
+Recomendación: Servidor en la nube
+
+Justificación: Las búsquedas en el catálogo, el carrito y las pasarelas de pago requieren consultas constantes a la base de datos, lo que consume más RAM y procesador. La nube permite subir de plan rápido si entra una temporada alta de ventas sin tener que comprar un servidor físico costoso.
+
+ESCENARIO 3: PLATAFORMA EDUCATIVA INSTITUCIONAL
+
+Núcleos de CPU: 16 a 32 núcleos (repartidos con un balanceador de carga)
+
+Cantidad de RAM: 32 GB a 64 GB
+
+Recomendación: Servidor en la nube (Servidores de alta disponibilidad)
+
+Justificación: Tener 10,000 alumnos activos al mismo tiempo haciendo exámenes o cargando videos exige demasiada memoria y hilos de procesamiento. Con la nube podemos activar varios servidores en paralelo para repartir la carga y evitar que la plataforma se caiga en horas pico de clases.
