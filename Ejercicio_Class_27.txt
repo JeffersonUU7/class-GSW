@@ -1,0 +1,16 @@
+1. ¿Cuántos servidores se necesitan para el pico sin factor de seguridad?
+Para sacar este número, dividimos la cantidad máxima de gente que entra de golpe entre lo que aguanta un solo servidor.
+
+Cálculo: 15,000 usuarios ÷ 2,000 usuarios por servidor = 7.5 servidores.
+
+
+2. Aplicando un factor de seguridad de 1.8 y número final
+Aquí multiplicamos el resultado anterior por 1.8 para tener un margen extra y no andar muy justos de espacio.
+
+Cálculo: 7.5 servidores × 1.8 = 13.5 servidores.
+
+Como no podemos poner medio servidor, redondeamos hacia arriba y el número final es de 14 servidores.
+
+
+3. ¿Por qué ese número garantiza alta disponibilidad?
+Tener estos servidores extra nos salva si alguno se llega a apagar o arruinar de la nada, porque los demás cubren su trabajo sin que la gente lo note. Además, ese "colchoncito" de más ayuda a que la página no se trabe ni se caiga si de repente entran más personas de las que esperábamos.

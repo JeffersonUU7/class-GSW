@@ -1,0 +1,10 @@
+Tema: Sistema de pedidos para llevar y menú del día, caso de estudio: Comedor Mamá Toyo (San Miguel)
+A quién ayuda: a un comedor casero de San Miguel y a sus clientes, que según reseñas públicas prefieren pedir para llevar porque el local es pequeño.
+
+Problema concreto: en horas de almuerzo el espacio es limitado y no hay forma de pedir con anticipación para recoger sin esperar.
+Solución: una web donde el cliente ve el menú del día, arma su pedido y obtiene un número de confirmación; el comedor ve la lista de pedidos pendientes.
+
+Alcance técnico: contenedor Express/TypeScript con rutas dinámicas (/menu, /pedidos), servidor con HTTPS, y clúster de 2 nodos en Docker Compose con health check /health y balanceador Nginx.
+Justificación del clúster: el pico de almuerzo concentra los pedidos en pocas horas; con 2 nodos el sitio sigue funcionando aunque uno falle.
+
+Nota: los datos del menú y los precios son de ejemplo.
